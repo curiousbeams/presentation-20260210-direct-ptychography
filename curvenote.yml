@@ -65,6 +65,8 @@ project:
     OBF: optimum bright field STEM
     MF: matched filter
     WDD: Wigner distribution deconvolution
+    WPOA: weak phase object approximation
+    CTF: contrast transfer function
   toc:
     - file: 01.index.md
     - title: Diffractive Imaging
@@ -75,6 +77,12 @@ project:
       children:
         - file: 04.weak-phase-object-approximation.md
         - file: 05.single-sideband-reconstruction.md
+        - file: 06.bright-field-loop.md
+    - title: Parallax Imaging
+      children:
+        - file: 07.parallax-imaging.md
+        - file: 08.scan-upsampling.md
+        - file: 09.experimental-upsampling.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
