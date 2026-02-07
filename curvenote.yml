@@ -71,6 +71,10 @@ project:
       children:
         - file: 02.stem-measurements.md
         - file: 03.phase-problem.md
+    - title: Direct Ptychography
+      children:
+        - file: 04.weak-phase-object-approximation.md
+        - file: 05.single-sideband-reconstruction.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
