@@ -74,6 +74,8 @@ project:
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
+site:
+  template: book-theme
 # site:
 #   template: https://github.com/gvarnavi/custom-myst-book-theme.git
 #   options:
