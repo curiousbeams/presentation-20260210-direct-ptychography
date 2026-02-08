@@ -4,7 +4,7 @@ project:
   id: curious-beams-presentation-20260210-direct-ptychography
   title: Unified Direct Phase Retrieval & Streaming Parallax Imaging
   short_title: Unified Direct Ptychography
-  description: Interactive part of a seminar given by Georgios Varnavides at the University of Vienna, Feb 10 2026.
+  description: Interactive seminar given by Dr. Georgios Varnavides at the University of Vienna, Feb 10 2026.
   keywords:
     - Electron Microscopy
     - Diffractive Imaging
@@ -13,14 +13,14 @@ project:
     - Parallax Imaging
     - Streaming Acquisition
   github: https://github.com/curiousbeams/presentation-20260210-direct-ptychography
-  jupyter: true
-  # jupyter:
-  #   server:
-  #     url: 'http://localhost:8888'
-  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  # jupyter: true
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
-  date: 2026-02-07
+  date: 2026-02-10
   requirements:
     - 'Dockerfile'
     - requirements.txt
@@ -67,6 +67,8 @@ project:
     WDD: Wigner distribution deconvolution
     WPOA: weak phase object approximation
     CTF: contrast transfer function
+    iCOM: integrated center of mass imaging
+    SSNR: spectral signal to noise ratio
   toc:
     - file: 01.index.md
     - title: Diffractive Imaging
@@ -83,6 +85,10 @@ project:
         - file: 07.parallax-imaging.md
         - file: 08.scan-upsampling.md
         - file: 09.experimental-upsampling.md
+    - title: Unified Framework & Streaming
+      children:
+        - file: 10.unified-framework.md
+        - file: 11.streaming-parallax.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
