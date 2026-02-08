@@ -21,6 +21,7 @@ project:
   open_access: true
   license: CC-BY-4.0
   date: 2026-02-10
+  thumbnail: ./figures/streaming_parallax_placeholder_transparent.png
   requirements:
     - 'Dockerfile'
     - requirements.txt
