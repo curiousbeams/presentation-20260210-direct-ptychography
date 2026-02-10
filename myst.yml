@@ -91,6 +91,9 @@ project:
         - file: 10.unified-framework.md
         - file: 11.streaming-parallax.md
         - file: 12.beyond-wpoa.md
+    - title: Outlook
+      children:
+        - file: 13.higher-order-ms.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
@@ -101,11 +104,11 @@ site:
 #   options:
 #     theme: 'dark'
 #     hide_theme_toggle: true
-#     hide_outline: true
 #     hide_header_block: true
 #     hide_connection_tray: true
+#     hide_outline: true
 #     hide_search: true
 #     favicon: ./figures/favicon.ico
 #     logo: ./figures/logo.png
 #     logo_dark: ./figures/logo.png
-#     logo_text: 'cbl.curve.space/presentation-20260210-direct-ptychography'
+#     logo_text: 'cbl.curve.space/presentations'
